@@ -211,3 +211,10 @@ However imperfect multicollinearity also causes serious issues in the model
 What are the fixes of multicollinearity?
 Find the correlation between each pair of independent variables
 If two variables are highly correlated, then either drop one of them or transform them into a single variable
+
+Q: What is L1 regression and L2 regression?
+L1 : reidge regression?
+L2 : LASSO regression?
+
+Q: what is OLS Stats model?
+
