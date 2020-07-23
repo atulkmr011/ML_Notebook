@@ -1,0 +1,142 @@
+
+
+1. What is a Linear Regression?
+In simple terms, linear regression is adopting a linear approach to modeling the relationship between a dependent variable (scalar response) 
+and one or more independent variables (explanatory variables). In case you have one explanatory variable, you call it a simple linear regression.
+ In case you have more than one independent variable, you refer to the process as multiple linear regressions.
+
+2. Can you list out the critical assumptions of linear regression?
+There are three crucial assumptions one has to make in linear regression. They are,
+
+It is imperative to have a linear relationship between the dependent and independent A scatter plot can prove handy to check out this fact.
+
+The independent variables in the dataset should not exhibit any multi-collinearity. In case they do, it should be at the barest minimum.
+There should be a restriction on their value depending on the domain requirement.
+
+Homoscedasticity is one of the most critical It states that there should be an equal distribution of errors.
+
+3.    What is Heteroscedasticity?
+Heteroscedasticity is the exact opposite of homoscedasticity. It entails that there is no equal distribution of the error terms.
+You use a log function to rectify this phenomenon.
+
+4.    What is the primary difference between R square and adjusted R square?
+In linear regression, you use both these values for model validation. However, there is a clear distinction between the two. 
+R square accounts for the variation of all independent variables on the dependent variable. In other words, it considers each 
+independent variable for explaining the variation. In the case of Adjusted R square, it accounts for the significant variables alone 
+for indicating the percentage of variation in the model. By significant, we refer to the P values less than 0.05.
+
+5.    Can you list out the formulas to find RMSE and MSE?
+
+The most common measures of accuracy for any linear regression are RMSE and MSE. MSE stands for Mean Square Error whereas RMSE stands for Root Mean Square Error. 
+The formulas of RMSE and MSE are as hereunder.
+
+
+Linear Regression Interview Questions – Complex Questions
+
+
+6.    Can you name a possible method of improving the accuracy of a linear regression model?
+You can do so in many ways. One of the most common ways is ‘The Outlier Treatment.’
+
+Outliers have great significance in linear regression because regression is very sensitive to outliers. 
+Therefore, it becomes critical to treat outliers with appropriate values. It can also prove useful if you replace the values with mean, 
+median, mode or percentile depending on the distribution.
+
+7.    What are outliers? How do you detect and treat them?
+An outlier is an observation point distant from other observations. It might be due to a variance in the measurement. 
+It can also indicate an experimental error. Under such circumstances, you need to exclude the same from the data set. 
+If you do not detect and treat them, they can cause problems in statistical analysis.
+
+
+
+You can see that 3 is the outlier in this example.
+
+There is no strict mathematical calculation of how to determine an outlier. Deciding whether an observation is an outlier or not, 
+is itself a subjective exercise. However, you can detect outliers through various methods. Some of them are graphical and are known 
+as normal probability plots whereas some are model-based. You have some hybrid techniques such as Boxplots.
+
+Once you have detected the outlier, you should either remove them or correct them to ensure accurate analysis. 
+Some of the methods of eliminating outliers are the Z-Score and the IQR Score methods.
+
+8.    How do you interpret a Q-Q plot in a linear regression model?
+As the name suggests, the Q-Q plot is a graphical plotting of the quantiles of two distributions with respect to each other. 
+In other words, you plot quantiles against quantiles.
+
+Whenever you interpret a Q-Q plot, you should concentrate on the ‘y = x’ line. You also call it the 45-degree line in statistics. 
+It entails that each of your distributions has the same quantiles. In case you witness a deviation from this line, one of the 
+distributions could be skewed when compared to the other.
+
+9.    What is the importance of the F-test in a linear model?
+The F-test is a crucial one in the sense that it tests the goodness of the model. When you reiterate the model to improve 
+the accuracy with the changes, the F-test proves its utility in understanding the effect of the overall regression.
+
+10.  What are the disadvantages of the linear regression model?
+One of the most significant demerits of the linear model is that it is sensitive and dependent on the outliers. 
+It can affect the overall result. Another notable demerit of the linear model is overfitting. 
+Similarly, underfitting is also a significant disadvantage of the linear model.
+
+11.  What is the curse of dimensionality? Can you give an example?
+When you analyze and organize data in high-dimensional spaces (usually in thousands), various situations can arise that usually 
+do not do so when you analyze data in low-dimensional settings (3-dimensional physical space). The curse of dimensionality refers to such phenomena.
+
+Here is an example.
+
+All kids love to eat chocolates. Now, you bring a truckload of chocolates in front of the kid. These chocolates come in different colors, 
+shapes, tastes, and price. Consider the following scenario.
+The kid has to choose one chocolate from the truck depending on the following factors. 
+   Only taste – There are usually four tastes, sweet, salty, sour, and bitter. Hence, the child will have to try out only four chocolates 
+              before choosing one to its liking.
+   Taste and Color – Assume there are only four colors. Hence, the child will now have to taste a minimum of 16 (4 X 4) before making the right choice.
+   Taste, color, and shape – Let us assume that there are five shapes. Therefore, the child will now have to eat a minimum of 80 chocolates (4 X 4 X 5).
+
+What will happen to the child if it tries out 80 chocolates at a time? It will naturally become sick. Hence, it will not be in a position to try out the chocolates. 
+This example is the perfect one to explain the curse of dimensionality. The more the options you have, the more the problems you encounter.
+
+
+
+Linear Regression Interview Questions – Multiple Choice Questions
+
+Q 1.    In regression analysis, which of the statements is true?
+The mean of residuals is always equal to Zero
+The Mean of residuals is less than Zero at all times
+The Mean of residuals is more than Zero at all times
+You do not have any such rule for residuals.
+
+Ans:The correct answer is A. In regression analysis, the sum of the residuals in regression is always equal to Zero. 
+Thus, it implies that the mean will also be Zero if the sum of the residuals is Zero.
+
+
+Q 2.    Which of the statements is correct about Heteroscedasticity?
+Linear regression with different error terms
+Linear regression with constant error terms
+Linear regression with no error terms
+None of the above
+
+Ans:
+The solution is the option A. When you have a non-constant variance in the error terms, it results in Heteroscedasticity. 
+Such non-constant variance occurs because you have outliers.
+
+
+3.Which of the following plots is best suited to test the linear relationship of independent and dependent continuous variables?
+Scatter Plot
+Bar Chart
+Histograms
+None of the above options
+
+
+The answer is A. The Scatter plot is the best way to determine the relationship between continuous variables. 
+You can find out how one variable changes with respect to the other.
+
+
+4.    If you have only one independent variable, how many coefficients will you require to estimate in a simple linear regression model?
+One
+Two
+No idea
+The answer is B. Consider the simple linear regression with one independent variable. Y = a + bx. You can see that you need two coefficients.
+
+
+
+
+
+
+
+
