@@ -1,0 +1,15 @@
+Logistic_regression_interview_question
+
+https://www.analyticsvidhya.com/blog/2016/12/45-questions-to-test-a-data-scientist-on-regression-skill-test-regression-solution/
+
+
+https://www.analyticsvidhya.com/blog/2017/08/skilltest-logistic-regression/
+
+https://www.upgrad.com/blog/machine-learning-interview-questions-answers-logistic-regression/
+
+http://www.data2businessinsights.in/2019/11/04/logistic-regression-interview-questions/
+
+https://www.listendata.com/2018/03/regression-analysis.html
+
+https://www.listendata.com/2017/03/predictive-modeling-interview-questions.html
+
