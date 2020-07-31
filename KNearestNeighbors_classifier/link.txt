@@ -1,1 +1,3 @@
 https://github.com/krishnaik06/K-Nearest-Neighour/blob/master/K%20Nearest%20Neighbors%20with%20Python.ipynb
+
+https://github.com/nitinkaushik01/Data_Science_Bootcamp/blob/master/Classification_Algorithms/K_Nearest_Neighbour/Classification_Algorithms_KNN.ipynb
